@@ -1,0 +1,5 @@
+stopifnot(file.exists("results/bulk/expr_merged_geo.rds"))
+stopifnot(file.exists("results/deg/de_all.tsv"))
+stopifnot(file.exists("results/ppi/string_edges_highconf.tsv"))
+stopifnot(file.exists("results/ppi/hub_metrics_all.tsv"))
+message("Smoke test passed.")

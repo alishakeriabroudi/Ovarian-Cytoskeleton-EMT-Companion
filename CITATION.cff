@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper and this code."
+title: "Companion code: cytoskeleton/EMT ovarian cancer (bulk + scRNA-seq)"
+type: software
+authors:
+  - family-names: "Shakeri Abroudi"
+    given-names: "Ali"
+license: MIT
+repository-code: "https://github.com/<your-username>/<your-repo>"
+keywords:
+  - ovarian cancer
+  - EMT
+  - cytoskeleton
+  - transcriptomics
+  - single-cell RNA-seq
+  - bioinformatics

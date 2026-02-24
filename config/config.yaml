@@ -1,0 +1,32 @@
+project:
+  seed: 123
+  out_dir: "results"
+
+bulk:
+  geo_series:
+    - "GSE66957"
+    - "GSE10971"
+    - "GSE26712"
+    - "GSE29450"
+    - "GSE54388"
+    - "GSE36668"
+  tcga_counts_path: "data/tcga_ov/cbioportal_counts.tsv"
+
+preprocess:
+  log2_transform: true
+  quantile_normalize: true
+  combat: true
+  combat_model: "~ tissue_type"
+
+deg:
+  log2fc: 1.5
+  fdr: 0.05
+
+ppi:
+  string_score: 0.9
+
+emt:
+  hallmark_emt_gmt: "data/gene_sets/msigdb_hallmark_emt.gmt"
+
+cytoskeleton:
+  panther_list_path: "data/gene_sets/panther_cytoskeleton_genes.txt"
