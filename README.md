@@ -48,5 +48,12 @@ The paper uses CIBERSORT (LM22). Due to licensing, we provide a placeholder and 
 
 ---
 
+## Associated publication
+**Analysis of microarray and single-cell RNA-seq finds gene co-expression, cell–cell communication, and tumor environment associated with cytoskeleton protein in epithelial-mesenchymal transition in ovarian cancer**  
+- Ali Shakeri Abroudi, Aryan Jalaeianbanayan, Melika Djamali, Hossein Azizi — *Discover Oncology* (2026)  
+- DOI: https://doi.org/10.1007/s12672-026-04580-6
+
+---
+
 ## License
 MIT (code).
