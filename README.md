@@ -6,7 +6,7 @@ It is designed to be:
 - **Reproducible**: scripts write outputs under `results/`
 - **Honest**: licensed / manual-tool steps are separated into `experimental/`
 
-Paper context: the work uses bulk cohort integration with quantile normalization + ComBat, performs DEG and STRING PPI at high confidence, identifies hubs via multiple network metrics, computes EMT scores, integrates scRNA-seq with Seurat+Harmony, and runs CellChat. fileciteturn5file0L8-L16
+Paper context: the work uses bulk cohort integration with quantile normalization + ComBat, performs DEG and STRING PPI at high confidence, identifies hubs via multiple network metrics, computes EMT scores, integrates scRNA-seq with Seurat+Harmony, and runs CellChat.
 
 ---
 
