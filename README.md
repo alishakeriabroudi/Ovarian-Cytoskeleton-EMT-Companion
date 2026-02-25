@@ -14,7 +14,10 @@ Paper context: the work uses bulk cohort integration with quantile normalization
 **Analysis of microarray and single-cell RNA-seq finds gene co-expression, cell–cell communication, and tumor environment associated with cytoskeleton protein in epithelial-mesenchymal transition in ovarian cancer**  
 - Ali Shakeri Abroudi, Aryan Jalaeianbanayan, Melika Djamali, Hossein Azizi — *Discover Oncology* (2026)  
 - DOI: https://doi.org/10.1007/s12672-026-04580-6
-  
+
+  ## Software DOI (Zenodo)
+- **Cite all versions (Concept DOI):** https://doi.org/10.5281/zenodo.18772389  
+- **This release (v1.0.1, Version DOI):** https://doi.org/10.5281/zenodo.18772390
 ---
 
 ## Quick start (core)
