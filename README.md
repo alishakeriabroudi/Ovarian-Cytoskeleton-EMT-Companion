@@ -23,6 +23,21 @@ Paper context: the work uses bulk cohort integration with quantile normalization
 ```bash
 make setup
 ```
+### Requirements
+- R (>= 4.2) + GNU Make
+- (Optional) Docker
+
+### Expected outputs
+All outputs are written under `results/` (see folder list below).
+
+### Runtime
+Depends on cohort size; bulk pipeline typically ~X–Y minutes on a laptop.
+
+## Project structure
+- `config/` configuration files
+- `scripts/` core pipeline scripts
+- `experimental/` manual/licensed steps (e.g., CIBERSORT notes)
+- `results/` generated outputs (not committed)
 
 ### Configure inputs
 Edit `config/config.yaml` (optional):
@@ -52,6 +67,12 @@ You must edit `scripts/10_scrna_integration_harmony.R` and `scripts/11_cellchat_
 
 ## Immune infiltration (placeholder)
 The paper uses CIBERSORT (LM22). Due to licensing, we provide a placeholder and clear integration notes in `experimental/`.
+
+---
+
+## Citation
+If you use this code, please cite the paper above.  
+A `CITATION.cff` file is provided for GitHub citation support.
 
 ---
 
