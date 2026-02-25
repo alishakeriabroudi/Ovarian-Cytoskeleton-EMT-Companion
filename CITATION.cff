@@ -1,10 +1,18 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the associated paper."
-title: "Ovarian Cytoskeleton EMT Companion"
+message: "If you use this repository, please cite the software and the associated paper."
+title: "Ovarian-Cytoskeleton-EMT-Companion"
 authors:
   - family-names: "Abroudi"
     given-names: "Ali Shakeri"
 repository-code: "https://github.com/alishakeriabroudi/Ovarian-Cytoskeleton-EMT-Companion"
+doi: "10.5281/zenodo.18772389"
+license: "MIT"
+version: "1.0.1"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18772390"
+    description: "Version DOI for release v1.0.1"
+
 preferred-citation:
   type: article
   title: "Analysis of microarray and single-cell RNA-seq finds gene co-expression, cell–cell communication, and tumor environment associated with cytoskeleton protein in epithelial-mesenchymal transition in ovarian cancer"
@@ -20,4 +28,3 @@ preferred-citation:
   journal: "Discover Oncology"
   year: 2026
   doi: "10.1007/s12672-026-04580-6"
-  date-published: 2026-02-04
